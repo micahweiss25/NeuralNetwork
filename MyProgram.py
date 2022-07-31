@@ -69,4 +69,4 @@ def sum(list):
     return tmp
 
 def sigmoid(x):
-    (e ** x)
+    return 1 / (1 + (e ** -x)) 
